@@ -5,11 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
 }
 
 .innerNav {
-  max-width: 85%;
+  max-width: 90%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -18,10 +17,10 @@
 
 #name {
   color: white;
-  font-size: 2em;
+  /* font-size: 1em; */
 }
 
 .navLink {
   color: #e3d3ce;
-  margin-left: 10px;
+  margin-left: 25px;
 }

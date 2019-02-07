@@ -6,7 +6,7 @@ class Nav extends Component {
     return (
       <div className="mainNav">
         <div className="innerNav">
-          <span id="name"></span>
+          <Link id="name" to="/">{ this.props.displayName ? "Aaron Waterhouse" : null }</Link>
           <div id="navLinks">
             <Link to="/about" className="navLink">About</Link>
             <Link to="/work" className="navLink">Work</Link>

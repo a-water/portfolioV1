@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import Nav from './Nav';
 import SplitTemplate from './SplitTemplate';
+import Nav from './Nav';
 
-class Landing extends Component {
+class Project extends Component {
   render() {
     return (
       <div>
-        <Nav />
+        <Nav displayName = { true }/>
         <SplitTemplate 
           leftContent = "text"
-          rightContent = "text" 
+          rightContent = "image"  
         />
       </div>
-    )
-  };
+    );
+  }
+
 }
 
-export default Landing;
+export default Project;
