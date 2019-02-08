@@ -1,0 +1,7 @@
+{
+  "projects":
+    [
+      {"name": "Propagator", "description": "A digital Zine TBD built in React", "asset": "project-1-tmp.jpg","technologies": ["React"]},
+      {"name": "ZZZ", "description": "ZZZ ZZZ ZZZ", "asset": "project-1-tmp.jpg", "technologies": ["ZZZ", "React", "MongoDB"]}
+    ]
+}
