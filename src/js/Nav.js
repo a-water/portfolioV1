@@ -10,6 +10,7 @@ class Nav extends Component {
           <div id="navLinks">
             <Link to="/work" className="navLink">Work</Link>
             <Link to="/resume" className="navLink">Resume</Link>
+            <Link to="/contact" className="navLink">Contact</Link>
           </div>
         </div>
       </div>

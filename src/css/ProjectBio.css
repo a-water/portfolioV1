@@ -1,0 +1,53 @@
+.biobody {
+  max-width: 75%;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.0em;
+}
+
+.technologiesHeader {
+  font-size: 1.0em;
+}
+
+.technologies {
+  font-size: 1.0em;
+}
+
+.projectLinks {
+  display: flex;
+}
+
+.websiteButton {
+	padding: 6px 16px;
+	border-radius: 10px;
+	font-style: normal;
+  font-size: 18px;
+  height: 28px;
+  width: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.externalLink {
+  background: #59517d;
+	color: white;
+}
+
+.githubLink {
+  background: #1f1d26;
+	color: white;
+}
+
+a + a {
+  padding-left: 20px;
+}
+
+.projectLinks > a:visited{
+  color: white;
+}
