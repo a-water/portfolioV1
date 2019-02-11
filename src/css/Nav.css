@@ -18,6 +18,7 @@
 #name {
   color: rgb(48, 43, 43);
   text-decoration: none;
+  font-size: 1.3em;
 }
 
 .navLink {
@@ -30,4 +31,8 @@
 .navLink:hover {
   color: rgb(100, 96, 167);
   text-decoration: underline;
+}
+
+.navLink:active {
+  color: burlywood;
 }

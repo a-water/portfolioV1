@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 class ProjectBio extends Component {
   render() {
-    console.log("BIO props:", this.props);    
     return(
       <div className="biobody">
         <p className="title">{ this.props.name }</p>
@@ -12,7 +11,7 @@ class ProjectBio extends Component {
           <ul className="technologiesList">
             {
               this.props.technologies.map((technology) => {
-                return <li> { technology } </li>
+                return <li key={technology}> { technology } </li>
               })
             }
           </ul>

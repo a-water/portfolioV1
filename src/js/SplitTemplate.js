@@ -6,7 +6,7 @@ class SplitTemplate extends Component {
   renderContent(contentType, content) {   
     switch(contentType) {
       case 'text':
-        return <p> { content } </p>;
+        return <p className="splitText"> { content } </p>;
       case 'bio':
         return <ProjectBio { ...content }/>
       case 'image':

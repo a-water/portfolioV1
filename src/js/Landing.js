@@ -15,7 +15,7 @@ class Landing extends Component {
     return (
       <div>
         <Nav />
-        <SplitTemplate { ...splitTemplateData }/>
+        <SplitTemplate { ...splitTemplateData } />
       </div>
     )
   };

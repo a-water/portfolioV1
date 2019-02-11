@@ -1,7 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import resumePdf from '../assets/Aaron-Waterhouse-STE.pdf';
 
 class Nav extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  addCurrentPageClass(path) {
+    let currentPath = this.props;
+    console.log(currentPath);
+    
+  }
+
   render() {
     return (
       <div className="mainNav">
@@ -9,7 +20,7 @@ class Nav extends Component {
           <Link id="name" to="/">{ this.props.displayName ? "Aaron Waterhouse" : null }</Link>
           <div id="navLinks">
             <Link to="/work" className="navLink">Work</Link>
-            <Link to="/resume" className="navLink">Resume</Link>
+            <a href={ resumePdf } rel="noopener noreferrer" target="_blank" className="navLink">CV</a>
             <Link to="/contact" className="navLink">Contact</Link>
           </div>
         </div>
