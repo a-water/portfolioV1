@@ -1,0 +1,18 @@
+.blurb {
+  width: 80%;
+  height: calc(100vh - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: slide-in-text 2s;
+}
+
+@keyframes slide-in-text {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
