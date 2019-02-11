@@ -9,7 +9,13 @@ class ProjectBio extends Component {
         <p className="description">{ this.props.description }</p>
         <div>
           <p className="technologiesHeader">Technologies used:</p>
-          <p className="technologies">{ this.props.technologies }</p>
+          <ul className="technologiesList">
+            {
+              this.props.technologies.map((technology) => {
+                return <li> { technology } </li>
+              })
+            }
+          </ul>
         </div>
 
         <div className="projectLinks">

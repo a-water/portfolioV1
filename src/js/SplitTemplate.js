@@ -17,7 +17,6 @@ class SplitTemplate extends Component {
   }
 
   render() {
-    // console.log(this.constructor.name, "Props:", this.props);
     return (
       <div className="SplitParent">
         <div className="split left">
