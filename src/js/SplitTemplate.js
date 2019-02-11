@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import ProjectBio from './ProjectBio';
+import LandingBlurb from './LandingBlurb';
 
 class SplitTemplate extends Component {
 
   renderContent(contentType, content) {   
     switch(contentType) {
       case 'text':
-        return <p className="splitText"> { content } </p>;
+        return <LandingBlurb content={ content }/>//<p className="splitText"> { content } </p>;
       case 'bio':
         return <ProjectBio { ...content }/>
       case 'image':
