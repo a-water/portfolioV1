@@ -48,6 +48,10 @@ a + a {
   padding-left: 20px;
 }
 
+.projectLinks > a {
+  text-decoration: none;
+}
+
 .projectLinks > a:visited{
   color: white;
 }

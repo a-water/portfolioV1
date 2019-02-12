@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import resumePdf from '../assets/Aaron-Waterhouse-STE.pdf';
 
 class Nav extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   addCurrentPageClass(path) {
     let currentPath = this.props;

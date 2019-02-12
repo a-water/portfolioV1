@@ -9,7 +9,8 @@ class Landing extends Component {
       leftType: "text", 
       leftContent: landingPageData["introText"],
       rightType: "text",
-      rightContent: landingPageData["aboutText"]
+      rightContent: landingPageData["aboutText"],
+      isLanding: true
     };
     
     return (

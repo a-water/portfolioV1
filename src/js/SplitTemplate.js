@@ -20,11 +20,11 @@ class SplitTemplate extends Component {
   render() {
     return (
       <div className="SplitParent">
-        <div className="split left">
+        <div className={`split left ${this.props.isLanding ? "landingLeft" : ""}`}>
           { this.renderContent(this.props.leftType, this.props.leftContent) }
         </div>
         
-        <div className="split right">
+        <div className={`split right ${this.props.isLanding ? "landingRight" : ""}`}>
           { this.renderContent(this.props.rightType, this.props.rightContent) }
         </div>
       </div>
