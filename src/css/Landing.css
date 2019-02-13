@@ -18,13 +18,3 @@
   justify-content: center;
   animation: slide-in-text 2s;
 }
-
-@keyframes slide-in-text {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}

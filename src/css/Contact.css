@@ -7,6 +7,10 @@
   background-color: rgb(216, 215, 216);
 }
 
+form {
+  animation: slide-in-text 2s;
+}
+
 label {
   /* text-align: right; */
   display: inline-block;

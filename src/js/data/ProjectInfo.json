@@ -2,20 +2,20 @@
   "projects":
     [
       { "name": "Propagator", 
-        "description": "A digital Zine TBD built in React. Salvia umami franzen venmo enamel pin portland affogato PBR&B offal jean shorts. Slow-carb messenger bag chartreuse knausgaard 8-bit, typewriter street art you probably haven't heard of them vinyl brooklyn butcher jean shorts. Kale chips roof party tilde, single-origin coffee keffiyeh poke church-key bitters tumblr tofu distillery heirloom. Letterpress meh jean shorts, dreamcatcher deep v gochujang fashion axe wayfarers viral messenger bag unicorn poke.", 
-        "asset": "project-1-tmp.jpg",
+        "description": "The first edition of a digital Zine featuring submissions from 9 different artists. This edition focused on dream journaling. This project was in collaboration with another developer", 
+        "asset": "project-1.jpg",
         "website": "http://www.propagator.xyz",
         "github": "https://github.com/a-water/propagator",
         "technologies": 
-          ["React"]
+          ["React", "Heroku"]
       },
-      { "name": "ZZZ", 
-        "description": "Salvia umami franzen venmo enamel pin portland affogato PBR&B offal jean shorts. Slow-carb messenger bag chartreuse knausgaard 8-bit, typewriter street art you probably haven't heard of them vinyl brooklyn butcher jean shorts. Kale chips roof party tilde, single-origin coffee keffiyeh poke church-key bitters tumblr tofu distillery heirloom. Letterpress meh jean shorts, dreamcatcher deep v gochujang fashion axe wayfarers viral messenger bag unicorn poke.", 
+      { "name": "aaronwaterhouse.com", 
+        "description": "My personal portfolio. Built to be a home for my complete projects, future projects, and an easy way to reach out to contact me. It's desktop and mobile friendly", 
         "asset": "project-2-tmp.jpg",
-        "website": "http://www.propagator.xyz", 
-        "github": "https://github.com/a-water/propagator",
+        "website": "http://www.aaronwaterhouse.com", 
+        "github": "https://github.com/a-water/portfolioV1",
         "technologies": 
-          ["ZZZ", "React", "MongoDB"]
+          ["React", "Heroku"]
       }
     ]
 }

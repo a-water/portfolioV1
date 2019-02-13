@@ -1,5 +1,6 @@
 .biobody {
   max-width: 75%;
+  animation: slide-in-text 2s;
 }
 
 .title {
