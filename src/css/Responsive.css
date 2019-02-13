@@ -15,7 +15,7 @@
   .split {
     width: 100%;
   }
-  
+
   .biobody {
     margin: 30px 0 30px 0;
     max-width: 85%;
@@ -39,5 +39,24 @@
   }
 
   /* Contact */
+  .contact {
+    align-items: stretch;
+    padding-top: 70px;
+  }
 
+  form {
+    width: 90%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 95%;
+    display: block;
+    margin: 0;
+  }
+
+  label {
+    padding-bottom: 10px;
+  }
 }
