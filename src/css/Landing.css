@@ -16,5 +16,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: slide-in-text 2s;
+  animation: fade-in-text 2s;
 }

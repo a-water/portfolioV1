@@ -7,7 +7,7 @@ class SplitTemplate extends Component {
   renderContent(contentType, content) {   
     switch(contentType) {
       case 'text':
-        return <LandingBlurb content={ content }/>//<p className="splitText"> { content } </p>;
+        return <LandingBlurb content={ content }/>
       case 'bio':
         return <ProjectBio { ...content }/>
       case 'image':

@@ -8,7 +8,7 @@
 }
 
 form {
-  animation: slide-in-text 2s;
+  animation: fade-in-text 2s;
 }
 
 label {
