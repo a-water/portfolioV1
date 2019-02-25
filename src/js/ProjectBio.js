@@ -1,6 +1,33 @@
 import React, { Component } from 'react';
 
 class ProjectBio extends Component {
+
+  renderProjectLink(projectUrl) {
+    if(projectUrl) {
+      return (
+        <a href={ this.props.website } rel="noopener noreferrer" target="_blank">
+          <div className="websiteButton externalLink">
+            Project Website
+          </div>
+        </a>
+      )
+    }
+    return null;
+  }
+
+  renderGithubLink(githubUrl) {
+    if(githubUrl) {
+      return(
+        <a href={ this.props.github } rel="noopener noreferrer" target="_blank">
+          <div className="websiteButton githubLink">
+            Github
+          </div>
+        </a>
+      )
+    }
+    return null;
+  }
+
   render() {
     return(
       <div className="biobody">
@@ -18,16 +45,8 @@ class ProjectBio extends Component {
         </div>
 
         <div className="projectLinks">
-          <a href={ this.props.website } rel="noopener noreferrer" target="_blank">
-            <div className="websiteButton externalLink">
-              Project Website
-            </div>
-          </a>
-          <a href={ this.props.github } rel="noopener noreferrer" target="_blank">
-            <div className="websiteButton githubLink">
-              Github
-            </div>
-          </a>
+          { this.renderProjectLink(this.props.website) }
+          { this.renderGithubLink(this.props.github) }
         </div>
       </div>
     );
