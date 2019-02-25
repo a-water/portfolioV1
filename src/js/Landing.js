@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Nav from './Nav';
 import SplitTemplate from './SplitTemplate';
 import landingPageData from './data/LandingPageData.json';
+import Footer from './Footer';
 
 class Landing extends Component {
   render() {
@@ -17,6 +18,7 @@ class Landing extends Component {
       <div>
         <Nav />
         <SplitTemplate { ...splitTemplateData } />
+        <Footer />
       </div>
     )
   };

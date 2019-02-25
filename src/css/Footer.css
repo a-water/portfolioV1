@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer > p {
+  font-size: 1em;
+  margin: 0 0 5px 0;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #cecece;
+}
+
+.footer-links a:visited {
+  color: #cecece;
+}
+
+.footer-links a:hover {
+  color: #828282;
+}
+
+.footer-links a:active {
+  color: #505050;
+}

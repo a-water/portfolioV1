@@ -26,7 +26,7 @@
         "website": "", 
         "github": "https://github.com/a-water/event-template",
         "technologies": 
-          ["React", "Node.js", "Express", "MongoDB"]
+          ["React", "Node.js", "Express", "MongoDB", "Mongoose"]
       },
       { 
         "name": "VidCoach", 

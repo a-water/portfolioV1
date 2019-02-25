@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
+import Footer from './Footer';
 
 class Contact extends Component {
 
@@ -66,6 +67,7 @@ class Contact extends Component {
             <input type="submit" value="Submit" />
           </form>
         </div>
+        <Footer />
       </div>
     );
   }

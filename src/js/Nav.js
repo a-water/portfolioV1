@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import resumePdf from '../assets/Aaron-Waterhouse-STE.pdf';
+import resumePdf from '../assets/Aaron-Waterhouse-Feb.pdf';
 
 class Nav extends Component {
   // constructor(props) {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import SplitTemplate from './SplitTemplate';
 import Nav from './Nav';
 import ProjectData from './data/ProjectInfo.json';
+import Footer from './Footer';
 
 class Projects extends Component {
 
@@ -52,6 +53,7 @@ class Projects extends Component {
       <div>
         <Nav displayName = { true }/>
         { this.createProjectItems() }
+        <Footer />
       </div>
     );
   }
