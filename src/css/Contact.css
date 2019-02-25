@@ -4,11 +4,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(216, 215, 216);
+  background-color: #d8d7d8;
 }
 
 form {
   animation: fade-in-text 2s;
+}
+
+.submit-modal {
+  width: 500px;
+  height: 280px;
+  background: #4c807d;
+  position: absolute;
+  display: initial;
+  text-align: center;
+  color: white;
+  animation: fade-in-text 2s;
+}
+
+.submit-modal-hidden {
+  display: none;
 }
 
 label {

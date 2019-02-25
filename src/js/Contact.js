@@ -11,39 +11,54 @@ class Contact extends Component {
       name: "",
       email: "",
       message: "",
-      displayErrors: false
+      displayErrors: false,
+      modalHidden: true
     }
 
     this.handleInputChange = this.handleInputChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   handleInputChange(event) {
     this.setState({
       [event.target.name]: event.target.value
     });
-    console.log('state:', this.state);
   }
 
   handleSubmit(event) {
     event.preventDefault();
+
+    // Validate the form
     if(!event.target.checkValidity()) {
       this.setState ({ displayErrors: true });
       return;
     }
 
-    let formData = event.target;
-    fetch('https://formspree.io/aaronwaterhouse@gmail.com', {
+    // Set state for the modal so that it'll show up
+    this.setState({
+      modalHidden: false
+    })
+
+    // Make POST request to send form data via email
+    let formData = new FormData(event.target);
+    fetch('https://script.google.com/macros/s/AKfycbw3iEa-dEQ3sTrBP8xo0FySs8t_fJ5a1pL200r3/exec', {
       method: 'POST',
       body: formData
     })
-    
-    this.setState({
-      name: "",
-      email: "",
-      message: "",
-      displayErrors: false
-    })
+      .then(response => {
+        console.log('Response:', response);
+        this.setState({
+          name: "",
+          email: "",
+          message: "",
+          displayErrors: false,
+          modalHidden: !this.state.modalHidden
+        })
+      })
   }
 
   render() {
@@ -51,7 +66,7 @@ class Contact extends Component {
       <div>
         <Nav displayName = { true }/>
         <div className="contact">
-          <form onSubmit={ this.handleSubmit } noValidate className={this.state.displayErrors ? "displayErrors" : ""}>
+          <form onSubmit={ this.handleSubmit } noValidate className={`gform ${this.state.displayErrors ? "displayErrors" : ""}`}>
             <label>Name</label>
             <input type="text" name="name"placeholder="Jane Doe" value={ this.state.name } onChange={ this.handleInputChange } required />
             <br />
@@ -66,6 +81,10 @@ class Contact extends Component {
 
             <input type="submit" value="Submit" />
           </form>
+          <div className={`submit-modal ${this.state.modalHidden ? "submit-modal-hidden" : ""}`}>
+            <p>Submitted! </p>
+            <p>I'll be in touch soon.</p>
+          </div>
         </div>
         <Footer />
       </div>
