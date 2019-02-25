@@ -42,13 +42,31 @@
 	color: white;
 }
 
+.externalLink:hover {
+  background: #221f2e;
+}
+
+.externalLink:active {
+  background: #070609;
+  color: #797979;
+}
+
 .githubLink {
   background: #1f1d26;
 	color: white;
 }
 
+.githubLink:hover {
+  background: #42404a;
+}
+
+.githubLink:active {
+  background: #6f6e72;
+  color: #42404a;
+}
+
 a + a {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 
 .projectLinks > a {
