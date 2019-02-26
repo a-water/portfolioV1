@@ -13,7 +13,7 @@
       { 
         "name": "aaronwaterhouse.com", 
         "description": "My personal portfolio. Built to be a home for my complete projects, future projects, and an easy way to reach out to contact me. It's desktop and mobile friendly, so give it a whirl on your laptop or your phone!", 
-        "asset": "project-2-tmp.jpg",
+        "asset": "aaronwaterhouse.jpg",
         "website": "http://www.aaronwaterhouse.com", 
         "github": "https://github.com/a-water/portfolioV1",
         "technologies": 
@@ -22,7 +22,7 @@
       { 
         "name": "Event Templates", 
         "description": "An event manager built using the MERN stack. It's an easy way to create an event, import a list of contacts, and send emails to keep your attendees in the know.", 
-        "asset": "project-2-tmp.jpg",
+        "asset": "eventmanager.jpg",
         "website": "", 
         "github": "https://github.com/a-water/event-template",
         "technologies": 
