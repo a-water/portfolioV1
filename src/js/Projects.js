@@ -46,9 +46,7 @@ class Projects extends Component {
     );
   }
 
-  render() {
-    console.log('widnow width:', this.state.width);
-    
+  render() {    
     return (
       <div>
         <Nav displayName = { true }/>

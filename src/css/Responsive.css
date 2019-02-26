@@ -51,9 +51,11 @@
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 95%;
+    width: 100%;
     display: block;
     margin: 0;
+    padding-left: 10;
+    box-sizing: border-box;
   }
 
   label {

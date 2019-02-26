@@ -50,7 +50,6 @@ class Contact extends Component {
       body: formData
     })
       .then(response => {
-        console.log('Response:', response);
         this.setState({
           name: "",
           email: "",
