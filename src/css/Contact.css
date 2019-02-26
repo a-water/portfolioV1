@@ -19,7 +19,7 @@ form {
   display: initial;
   text-align: center;
   color: white;
-  animation: fade-in-text 2s;
+  animation: fade-in-text 1s;
 }
 
 .submit-modal-hidden {

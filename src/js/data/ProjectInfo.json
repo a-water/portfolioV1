@@ -8,7 +8,7 @@
         "website": "http://www.propagator.xyz",
         "github": "https://github.com/a-water/propagator",
         "technologies": 
-          ["React", "Node.js", "Heroku"]
+          ["React", "Node.js", "CSS3", "HTML5", "Heroku"]
       },
       { 
         "name": "aaronwaterhouse.com", 
@@ -17,16 +17,16 @@
         "website": "http://www.aaronwaterhouse.com", 
         "github": "https://github.com/a-water/portfolioV1",
         "technologies": 
-          ["React", "Node.js", "Netlify"]
+          ["React", "Node.js", "CSS3", "HTML5", "Netlify"]
       },
       { 
-        "name": "Event Template", 
+        "name": "Event Templates", 
         "description": "An event manager built using the MERN stack. It's an easy way to create an event, import a list of contacts, and send emails to keep your attendees in the know.", 
         "asset": "project-2-tmp.jpg",
         "website": "", 
         "github": "https://github.com/a-water/event-template",
         "technologies": 
-          ["React", "Node.js", "Express", "MongoDB", "Mongoose"]
+          ["React", "Node.js", "Express", "MongoDB", "CSS3", "HTML5", "Mongoose"]
       },
       { 
         "name": "VidCoach", 
