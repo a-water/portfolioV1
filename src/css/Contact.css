@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d8d7d8;
+  background: #F6F6F6;
 }
 
 form {
@@ -63,6 +63,10 @@ input[type="submit"]:active {
 
 input[type='submit']:hover {
   box-shadow: 0 0 2px 2px rgb(19, 87, 213);
+}
+
+input[type='submit']:focus {
+  outline: none;
 }
 
 .displayErrors input:invalid,

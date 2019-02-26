@@ -3,7 +3,7 @@
     [
       { 
         "name": "Propagator", 
-        "description": "The first edition of a digital Zine featuring submissions from 9 different artists. This edition focused on dream journaling. This project was in collaboration with another developer", 
+        "description": "The first edition of a digital Zine featuring submissions from 9 different artists. This edition focused on dream journaling. The goal for this project was to make it very modular and allow for new submissions to be incorporated very easily. This project was in collaboration with another developer.", 
         "asset": "project-1.jpg",
         "website": "http://www.propagator.xyz",
         "github": "https://github.com/a-water/propagator",
@@ -12,7 +12,7 @@
       },
       { 
         "name": "aaronwaterhouse.com", 
-        "description": "My personal portfolio. Built to be a home for my complete projects, future projects, and an easy way to reach out to contact me. It's desktop and mobile friendly", 
+        "description": "My personal portfolio. Built to be a home for my complete projects, future projects, and an easy way to reach out to contact me. It's desktop and mobile friendly, so give it a whirl on your laptop or your phone!", 
         "asset": "project-2-tmp.jpg",
         "website": "http://www.aaronwaterhouse.com", 
         "github": "https://github.com/a-water/portfolioV1",

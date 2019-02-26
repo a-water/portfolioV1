@@ -1,5 +1,5 @@
 .mainNav {
-  background: #c8d0ce;
+  background: #2e2e2e;
   width: 100%;
   height: 50px;
   display: flex;
@@ -16,21 +16,20 @@
 }
 
 #name {
-  color: rgb(48, 43, 43);
+  color: #ececec;
   text-decoration: none;
   font-size: 1.3em;
 }
 
 .navLink {
-  color: rgb(48, 43, 43);
+  color: #e9d2d2;
   margin-left: 25px;
   text-decoration: none;
 }
 
 #name:hover,
 .navLink:hover {
-  color: rgb(100, 96, 167);
-  text-decoration: underline;
+  color: #6b6666;
 }
 
 .navLink:active {
