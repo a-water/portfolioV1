@@ -11,15 +11,6 @@
           ["React", "Node.js", "CSS3", "HTML5", "Heroku"]
       },
       { 
-        "name": "aaronwaterhouse.com", 
-        "description": "My personal portfolio. Built to be a home for my complete projects, future projects, and an easy way to reach out to contact me. It's desktop and mobile friendly, so give it a whirl on your laptop or your phone!", 
-        "asset": "aaronwaterhouse.jpg",
-        "website": "http://www.aaronwaterhouse.com", 
-        "github": "https://github.com/a-water/portfolioV1",
-        "technologies": 
-          ["React", "Node.js", "CSS3", "HTML5", "Netlify"]
-      },
-      { 
         "name": "Event Templates", 
         "description": "An event manager built using the MERN stack. It's an easy way to create an event, import a list of contacts, and send emails to keep your attendees in the know.", 
         "asset": "eventmanager.jpg",
@@ -27,6 +18,15 @@
         "github": "https://github.com/a-water/event-template",
         "technologies": 
           ["React", "Node.js", "Express", "MongoDB", "CSS3", "HTML5", "Mongoose"]
+      },
+      { 
+        "name": "aaronwaterhouse.com", 
+        "description": "My personal portfolio. Built to be a home for my complete projects, future projects, and an easy way to reach out to contact me. It's desktop and mobile friendly, so give it a whirl on your laptop or your phone!", 
+        "asset": "aaronwaterhouse.jpg",
+        "website": "http://www.aaronwaterhouse.com", 
+        "github": "https://github.com/a-water/portfolioV1",
+        "technologies": 
+          ["React", "Node.js", "CSS3", "HTML5", "Netlify"]
       },
       { 
         "name": "VidCoach", 

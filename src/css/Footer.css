@@ -10,7 +10,7 @@
 .footer > p {
   font-size: 1em;
   margin: 0 0 5px 0;
-  color: #53749b;
+  color: #cecece;
 }
 
 .footer-links {
@@ -21,17 +21,17 @@
 
 .footer-links a {
   text-decoration: none;
-  color: #cecece;
+  color: #53749b;
 }
 
 .footer-links a:visited {
-  color: #cecece;
+  color: #53749b;
 }
 
 .footer-links a:hover {
-  color: #828282;
+  color: #3a5472;
 }
 
 .footer-links a:active {
-  color: #505050;
+  color: #2f445e;
 }
