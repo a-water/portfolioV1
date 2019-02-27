@@ -10,7 +10,7 @@ class Nav extends Component {
           <Link id="name" to="/">{ this.props.displayName ? "Aaron Waterhouse" : null }</Link>
           <div id="navLinks">
             <Link to="/work" className="navLink">Work</Link>
-            <a href={ resumePdf } rel="noopener noreferrer" target="_blank" className="navLink">CV</a>
+            <a href={ resumePdf } rel="noopener noreferrer" target="_blank" className="navLink">Resume</a>
             <Link to="/contact" className="navLink">Contact</Link>
           </div>
         </div>
