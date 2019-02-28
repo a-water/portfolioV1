@@ -20,6 +20,15 @@
           ["React", "Node.js", "Express", "MongoDB", "CSS3", "HTML5", "Mongoose"]
       },
       { 
+        "name": "NBA Stats Finder", 
+        "description": "A simple way to find current-season stats for your favorite players. It's meant to be a simple-to-use tool to see quickly what kind of season a player is having.", 
+        "asset": "playerstats.jpg",
+        "website": "", 
+        "github": "https://github.com/a-water/NBAPlayerTracker",
+        "technologies": 
+          ["React", "Node.js", "Express", "Redux", "CSS3", "HTML5"]
+      },
+      { 
         "name": "aaronwaterhouse.com", 
         "description": "My personal portfolio. Built to be a home for my complete projects, future projects, and an easy way to reach out to contact me. It's desktop and mobile friendly, so give it a whirl on your laptop or your phone!", 
         "asset": "aaronwaterhouse.jpg",
