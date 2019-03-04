@@ -21,6 +21,10 @@
     width: 100%;
   }
 
+  .splitImg {
+    min-height: 225px;
+  }
+
   .biobody {
     margin: 30px 0 30px 0;
     max-width: 85%;
