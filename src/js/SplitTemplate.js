@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProjectBio from './ProjectBio';
 import LandingBlurb from './LandingBlurb';
+import Fade from 'react-reveal/Fade';
 
 class SplitTemplate extends Component {
 
@@ -20,13 +21,16 @@ class SplitTemplate extends Component {
   render() {
     return (
       <div className="SplitParent">
-        <div className={`split left ${this.props.isLanding ? "landingLeft" : ""}`}>
-          { this.renderContent(this.props.leftType, this.props.leftContent) }
-        </div>
-        
-        <div className={`split right ${this.props.isLanding ? "landingRight" : ""}`}>
-          { this.renderContent(this.props.rightType, this.props.rightContent) }
-        </div>
+        <Fade>
+          <div className={`split left ${this.props.isLanding ? "landingLeft" : ""}`}>
+            { this.renderContent(this.props.leftType, this.props.leftContent) }
+          </div>
+        </Fade>
+        <Fade>
+          <div className={`split right ${this.props.isLanding ? "landingRight" : ""}`}>
+            { this.renderContent(this.props.rightType, this.props.rightContent) }
+          </div>
+        </Fade>
       </div>
     );
   }
